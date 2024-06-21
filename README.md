@@ -72,7 +72,7 @@ Example Response:
 
 ## Example Usage
 
-### JavaScript Example
+### JavaScript
 
 ```javascript
 const fetch = require("node-fetch");
@@ -98,7 +98,7 @@ async function fetchQueryResponse() {
 fetchQueryResponse();
 ```
 
-### Python Example
+### Python
 
 ```python
 import requests
@@ -117,9 +117,7 @@ fetch_query_response()
 
 ## Testing Requirements
 
-To test API locally:
+To test Starklens-AI locally:
 
-- Create a `env` file and enter [OPENAI_API_KEY]() key
-- Access to the API endpoint (`/api/query`)
-- Proper authentication tokens or API keys if required
-- Understanding of query structure for retrieving transactions
+- Create a `env` file and enter your [OPENAI_API_KEY]() key
+- Access the API endpoint (`http://localhost:3000/api/query`)
